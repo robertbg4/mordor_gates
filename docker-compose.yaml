@@ -1,0 +1,8 @@
+services:
+
+  mordor_gates:
+    build: .
+      context: .
+    env_file:
+      - .env
+    restart: always
