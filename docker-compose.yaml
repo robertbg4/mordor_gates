@@ -1,7 +1,7 @@
 services:
 
   mordor_gates:
-    build: .
+    build:
       context: .
     env_file:
       - .env
